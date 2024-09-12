@@ -1,0 +1,10 @@
+userName: YOUR_USERNAME
+accessKey: YOUR_ACCESSKEY
+platforms:
+  - os: Windows
+    osVersion: 11
+    browserName: chrome
+    browserVersion: latest
+
+buildName: Grandel test-123
+sessionName: playwright test

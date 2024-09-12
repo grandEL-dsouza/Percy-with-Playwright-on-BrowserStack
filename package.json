@@ -1,0 +1,22 @@
+{
+  "name": "node-js-playwright-browserstack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sample-test": "npx browserstack-node-sdk playwright test --config=./playwright.config.js",
+    "postinstall": "npm update browserstack-node-sdk"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "latest",
+    "browserstack-node-sdk": "latest"
+  },
+  "dependencies": {
+    "@percy/cli": "^1.29.3",
+    "@percy/playwright": "^1.0.6",
+    "fs": "^0.0.1-security"
+  }
+}
